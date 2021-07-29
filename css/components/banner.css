@@ -1,0 +1,27 @@
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.banner p, .banner h1 {
+  text-shadow: 0 0 8px rgba(10, 10, 10, 0.3);
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: rgba(250, 250, 250, 0.9);
+}
+
+.banner-svg {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 10px;
+}

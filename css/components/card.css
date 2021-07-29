@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-info {
+  box-shadow: 0 0 8px rgba(10, 10, 10, 0.2);
+  width: 200px;
+  height: 200px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.card-info img {
+  width: 100px;
+}
+
+.card-info p {
+  color: #27273d;
+}

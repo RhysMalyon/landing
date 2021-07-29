@@ -1,0 +1,31 @@
+nav {
+  background-color: #1EDD88;
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline;
+  padding: 16px;
+}
+
+nav > ul > li > a {
+  color: #27273d;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.nav-logo {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  margin: 0 auto;
+  top: 5px;
+}

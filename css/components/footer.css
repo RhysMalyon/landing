@@ -1,0 +1,19 @@
+footer {
+  background-color: #1EDD88;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > ul > li {
+  list-style: none;
+  display: inline;
+  padding: 16px;
+}
+
+.fab {
+  color: #27273d;
+}
+
